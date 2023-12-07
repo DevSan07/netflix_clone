@@ -1,0 +1,307 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+
+                    body {
+                        background: #000;
+                        color: #fff;
+                    }
+
+                    .container {
+                        width: 100%;
+                        height: 100vh;
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(images/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        padding: 10px 8%;
+                    }
+
+                    .navbar {
+                        display: flex;
+                        text-align: center;
+                        justify-content: space-between;
+                        padding: 10px 0;
+                    }
+
+                    .logos {
+                        width: 150px;
+                        margin-top: 4px;
+                        margin-left: 52px;
+                    }
+
+                    .navbar button {
+                        outline: 0;
+                        border: 0;
+                        background: #db0001;
+                        color: #fff;
+                        padding: 7px 20px;
+                        font-size: 12px;
+                        border-radius: 4px;
+                        margin-left: 15px;
+                        cursor: pointer;
+                    }
+
+                    .navb button:hover {
+                        background: #b10404fc;
+                        transition: 0.4s ease-out;
+                    }
+
+                    #language-btn {
+                        display: inline-flex;
+                        align-items: center;
+                        background: transparent;
+                        border: 0.1px solid #fff;
+                        font-weight: bold;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 15px;
+                        padding: 8px 25px;
+                        background: url();
+                    }
+
+                    #language-btn1 {
+                        font-size: 15px;
+                    }
+
+                    #language-btn img {
+                        width: 8px;
+                        margin-left: 10px;
+                    }
+
+                    .write {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        text-align: center;
+                        margin-top: 70px;
+                    }
+
+                    .write h1 {
+                        font-size: 50px;
+                        line-height: 70px;
+                        font-weight: 650;
+                        max-width: 650px;
+                    }
+
+                    .write h3 {
+                        font-size: 22px;
+                        font-weight: 400;
+                        margin-bottom: 20px;
+                    }
+
+                    .write p {
+                        font-size: 19px;
+                    }
+
+                    #em1 {
+                        background: #171717a5;
+                        border: 1.6;
+                        outline: 0;
+                        margin-top: 20px;
+                        width: 60%;
+                        padding: 18px;
+                        border-radius: 5.5px;
+                        font-size: 16.5px;
+                    }
+
+                    ::placeholder {
+                        color: #a3a2a2;
+                    }
+
+                    #em2 {
+                        color: #fff;
+                        background: #e50303;
+                        width: 29%;
+                        padding: 15px;
+                        padding-bottom: 20px;
+                        border: 0;
+                        outline: 0;
+                        border-radius: 4px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+
+                    #em2:hover {
+                        background: #b10404fc;
+                        transition: 0.4s ease-out;
+                    }
+
+                    .features {
+                        border-top: 8px solid rgba(68, 67, 67, 0.906);
+                        padding: 50px 15px;
+                        font-size: 22px;
+                    }
+
+                    .row {
+                        display: flex;
+                        width: 100%;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        padding: 50px 0;
+                    }
+
+                    .text-col {
+                        flex-basis: 50%;
+                        margin-bottom: 20px;
+                    }
+
+                    .img-col {
+                        flex-basis: 50%;
+                        margin-bottom: 20px;
+                    }
+
+                    .img-col img {
+                        display: block;
+                        width: 90%;
+                        margin: auto;
+                        padding: 15px;
+                        margin-left: 50px;
+                    }
+
+                    .features h2 {
+                        font-size: 40px;
+                        font-weight: 600;
+                        margin-bottom: 20px;
+                        margin-left: 90px;
+                    }
+
+                    .features p {
+                        margin-left: 90px;
+                    }
+
+                    .questions {
+                        font-size: 55px;
+                        text-align: center;
+                        margin-top: 15px;
+                        color: #e3e0e0;
+                    }
+
+                    .questions h2 {
+                        margin-bottom: 20px;
+                    }
+
+                    .lastpage {
+                        text-align: center;
+                    }
+
+                    .gts {
+                        display: flex;
+                        flex-direction: column;
+                        flex-basis: 40%;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+
+                    .gts li:hover {
+
+                        background-color: rgb(89, 87, 87);
+                        transition: 0.2s ease-in;
+                    }
+
+                    .gts li {
+                        padding: 20px;
+                        margin: 5px;
+                        font-size: 1.5rem;
+                        background-color: rgb(54, 54, 54);
+                        color: white;
+                        text-align: left;
+                        width: 70%;
+                        list-style-type: none;
+
+                    }
+
+                    .paras {
+                        margin-top: 50px;
+                        font-size: 1.125rem;
+                        font-weight: 400;
+                    }
+
+                    .reemail {
+                        border: 1.6;
+                        outline: 0;
+                        margin-bottom: 2px;
+                        width: 60%;
+                        padding: 18px;
+                        border-radius: 5.5px;
+                        margin-left: 20%;
+                    }
+
+                    .gts li img {
+                        width: 40px;
+                        text-align: center;
+                        position: absolute;
+                        left: 77%;
+
+                    }
+
+                    .footer {
+                        max-width: 90%;
+                        margin: 1rem auto;
+                        overflow: auto;
+                        margin-top: 150px;
+
+
+                    }
+
+                    .footer span {
+                        font-size: 1rem;
+                        color: #a3a2a2;
+                        text-decoration: underline;
+
+
+                    }
+
+                    .lastlink {
+                        margin-top: 40px;
+                    }
+
+
+                    .lastlink ul li {
+
+                        color: #b0aeae;
+                        list-style-type: none;
+                        text-decoration: underline;
+                    }
+
+                    .lastlink {
+
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+
+
+                    }
+
+                    .lastlink li {
+                        line-height: 40px;
+                        font-size: 1rem;
+                    }
+
+                    .enbut {
+                        margin-top: 40px;
+                    }
+
+                    #secbut {
+                        background-color: #292828eb;
+                        color: #fff;
+                        padding: 10px 30px;
+                        border: 1px solid rgb(210, 210, 210);
+                        border-radius: 4px;
+                        font-size: 1.1rem;
+                    }
+
+                    #secbut img {
+                        width: 11px;
+                        margin-left: 10px;
+
+
+                    }
+                    #ni{
+                       display: flex;
+                    margin-left: -1px;
+                        margin-top: 30px;
+                        font-size: 18px;
+                        color: #cac7c7;
+                    }
